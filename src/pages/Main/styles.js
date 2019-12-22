@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Contianer = styled.div`
+export const Container = styled.div`
   max-width: 720px;
   background: #fff;
   border-radius: 4px;

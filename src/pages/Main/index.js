@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { FaGithubAlt, FaPlus } from 'react-icons/fa';
 
 import { Container, Form, SubmitButton } from './styles';

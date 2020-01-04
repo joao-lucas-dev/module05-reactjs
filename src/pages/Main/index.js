@@ -44,9 +44,7 @@ export default class Main extends Component {
     const { newRepo, repositories } = this.state;
 
     try {
-      const repository = repositories.find(
-        repo => repo.name.toLowerCase === newRepo.toLowerCase
-      );
+      const repository = repositories.find(repo => repo.name === newRepo);
 
       if (repository) throw new Error('Repositório duplicado');
 
